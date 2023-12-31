@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pokemon-item {
+    cursor: pointer;
+    list-style: none;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .pokemon-item img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;}
+
+    section ul{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    @media (max-width: 600px) {
+        section ul{
+            display:grid;
+            grid-template-columns: 1fr 1fr ;
+        }
+      }
